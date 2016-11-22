@@ -8,10 +8,11 @@
         for learning and using my knowledge to impact others.  In my free time, I'm either trying to
         become a Jedi Master (in coding) or a Chess Master (in real life).
         </p>
-        <button>View My CV</button>
+        <button class="btn btn-default">View My CV</button>
           <hr>
       </div>
       <div class="col-md-6" style="padding-top:50px;">
+        <%= image_tag "bw-brushed.png", size: "200" %>
       </div>
     </div>
   </section>
@@ -21,11 +22,49 @@
     <div class="row">
        <div class="col-md-12">
          <h4 class="section-heading">Recent Project</h4>
-         <button href="https://learn.co/vannak1/resume">View My Github</button>
        </div>
     </div>
     <div class="row">
-
+      <div class="col-sm-6 col-md-3">
+         <div class="thumbnail">
+         <%= image_tag "learn_main.png", size: "100" %>
+           <div class="caption">
+             <h5>LearnExchange</h5>
+             <p>AngularJS 1.5, Ruby on Rails 4.0</p>
+           <p><a href="#" class="btn btn-secondary" role="button">Github</a></p>
+           </div>
+         </div>
+       </div>
+       <div class="col-sm-6 col-md-3">
+       <div class="thumbnail">
+         <%= image_tag "rienery_courses.png", size: "100" %>
+         <div class="caption">
+           <h5>Rienery</h5>
+           <p>Ruby on Rails 4</p>
+           <p><a href="#" class="btn btn-secondary" role="button">Github</a></p>
+         </div>
+       </div>
+     </div>
+     <div class="col-sm-6 col-md-3">
+       <div class="thumbnail">
+         <%= image_tag "vanes_home.png", size: "100" %>
+         <div class="caption">
+           <h5>Sinatra Payoff</h5>
+           <p>Sinatra</p>
+           <p><a href="#" class="btn btn-secondary" role="button">Github</a></p>
+         </div>
+       </div>
+     </div>
+     <div class="col-sm-6 col-md-3">
+       <div class="thumbnail">
+         <%= image_tag "stocks_watch.png", size: "100" %>
+         <div class="caption">
+           <h5>Stocks Watchlist</h5>
+           <p>Ruby CLI</p>
+           <p><a href="#" class="btn btn-secondary" role="button">Github</a></p>
+         </div>
+       </div>
+     </div>
     </div>
   </section>
   <hr>
@@ -54,7 +93,7 @@
         deals with...</p>
       </div>
       <div class="col-md-4">
-        <button>Read Blog</button>
+        <button class="btn btn-default">Read Blog</button>
       </div>
     </div>
   </section>
@@ -63,6 +102,8 @@
     <div class="row">
       <div class="col-md-12">
         <h5 class="section-heading">Contact: vannak.chhay1@gmail.com</h5>
+      </div>
+      <div class="col-md-6">
         <form>
           <div class="form-group">
             <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -73,7 +114,7 @@
           <div class="form-group">
             <input type="text" class="form-control" id="message" placeholder="Message">
           </div>
-          <button>Submit</button>
+          <button class="btn btn-default">Submit</button>
         </form>
       </div>
     </div>
