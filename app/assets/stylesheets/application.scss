@@ -1,0 +1,23 @@
+@import "bootstrap";
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin-top: 75px;
+}
+
+nav {
+  border-bottom-style: solid;
+  border-color: rgba(0,0,0,.14);
+  border-width: 1px;
+}
+
+.section-heading {
+  padding-bottom: 15px;
+}
